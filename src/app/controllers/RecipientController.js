@@ -63,6 +63,10 @@ class RecipientController {
 
     const recipient = await Recipient.findByPk(recipientId);
 
+    if (!recipient) {
+      return res.status(401).json({ error: 'ID not found' });
+    }
+
     const {
       name,
       street,
