@@ -72,7 +72,7 @@ In order for the deliverer to be able to view your orders, he must only inform y
 
 Let him also list only the orders that have already been **delivered** by him, based on his registration ID;
 
-Example request: `GET https://fastfeet.com/deliveryman/1/deliveries'.
+Example request: `GET https://fastfeet.com/deliveryman/1/deliveries`
 
 ### 2. Change order status
 
